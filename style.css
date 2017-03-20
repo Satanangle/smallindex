@@ -1,0 +1,238 @@
+nav .navbar-brand{
+    font-size: 27px;
+    color: #012877;
+    font-weight: 400;
+}
+.navbar-nav>li>a{
+    color: #303433;
+    padding: 10px 0px;
+    margin:0 15px;
+}
+.navbar-nav>li:nth-child(4) a, h2 span{
+    color: red;
+}
+.navbar-nav>li>a:hover{
+    border-bottom: 1px solid red;
+    background: #fff;
+}
+.banner{
+    margin-top:-20px; 
+    width:100%;
+}
+/*服务*/
+.sev{
+    padding:50px 0; 
+}
+.sev li h4{
+    font-weight: 400;
+    margin-top: 15px;
+}
+.sev li p:nth-child(3){
+    width: 250px;
+    margin-top: 20px;
+}
+.sev li p:nth-child(1){
+    width: 270px;
+    height: 200px;
+    overflow: hidden;
+    text-align: center;
+}
+.sev li p:nth-child(1) img{
+    transition: all .5s ;
+}
+.sev li p:nth-child(1) img:hover{ 
+    transform:scale(1.5,1.5);
+}
+/*.sev p:before{
+    content: "";
+
+}*/
+.xbt span{
+    color: red;
+    margin: 5px;
+    display: inline-block;
+}
+
+.suss{
+    height: 525px;
+    width: 100%;
+    background: #4a5d6b;
+    padding-top: 30px;
+}
+.suss h2,.suss>p:nth-child(2){
+    color: #fff
+}
+.suss .img{
+    margin: 0px auto;
+    height: 246px;
+}
+.suss .img p{
+    float: left;
+    position: relative;
+    width: 20%;
+    margin-bottom: 0px;
+}
+.suss .img p:hover::after{
+    content:"";
+    position:absolute;
+    left: 0;
+    top: 0; 
+    z-index:100;
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    background:rgba(240,68,47,0.3) url('images/view.png') no-repeat center center/100% 100%;
+    display: block;
+}
+.suss div:nth-child(5){
+    margin-top: 50px;
+}
+
+.news{
+    padding-top: 40px;
+    margin-top: 260px;
+    height: 900px;
+    background: url("images/h19.jpg") no-repeat center center/100% 100%;
+    position: relative;
+}
+.news>a{
+    position: absolute;
+    bottom: 60px;
+    left:50%;
+    width: 100px;
+    height: 30px;
+    display: block;
+    border:1px solid #fff;
+    color: #fff;
+    
+}
+/*新闻资讯左边*/
+.news .left .row{
+    margin-top: 20px;
+}
+.news .left .row p{
+    padding:0px 30px 0px 20px ;
+}
+.news .left .row p:last-child{
+    font-size: 10px;
+}
+.news .container{
+    color: #fff;
+}
+
+/*下拉菜单的加号2*/
+.panel-heading{
+    padding:0px 15px;
+}
+
+.news .panel-title>a span{
+    display: inline-block;
+    background: #86a0af;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    font-weight: 500;
+}
+.news .right .panel .panel-title a{
+    display: block;
+}
+.news .right .panel:nth-child(1) .panel-title a span{
+    background: red;
+}
+
+/*左右两边大块的背景*/
+.news .left,.news .panel h4{
+    background: rgba(255,255,255,.4);
+}
+.news .panel{
+    background: transparent;
+    
+}
+.news .panel-heading:nth-child(1){
+    margin-top: 0px;
+}
+.news .panel-heading{
+    margin-top: 15px;
+    border:0px;
+}
+/*下拉内容*/
+.news .panel-body{
+    height: 290px;
+}
+/*合作伙伴*/
+.pater{
+    margin-top: 50px;
+}
+.pater>ul>li {
+    position: relative;
+    overflow: hidden;
+    height: 100px;
+    
+}
+.pater>ul>li a{
+    color: #000;
+    width: 30px;
+    height: 30px;
+    text-decoration: none;
+    display: block;
+    font-size: 20px;
+    border:1px solid ;
+    margin-top: 100%;
+}
+.pater>ul>li:nth-child(2){
+    width:782px;
+    padding:0;
+}
+.pater .list {
+     position: absolute;
+     width: 1000px;
+     left: -24px;
+    
+}
+.pater .list li{
+    padding:0;
+}
+/*关于我们*/
+.gywm{
+    margin-top: 50px;
+    height: 320px;
+    width: 100%;
+    background: #de6763;
+    color: #fff;
+}
+.gywm>ul>li{
+    width: 275px;
+    height: 189px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.gywm>ul>li:nth-child(1) p{
+    padding-top: 10px;
+}
+/*关于我们最新案列*/
+.gywm>ul li:nth-child(2) ul li{
+    margin-top: 20px;
+    position: relative;
+}
+
+.gywm>ul li:nth-child(2) ul li p{
+    display: inline-block;
+    margin-left: 8px;
+}
+
+/*关于我们服务范围*/
+.gywm li a{
+    width: 100px;
+    height: 30px;
+    display: inline-block;
+    margin:11px;
+    color: #fff;
+    border:1px solid #fff;
+}
+/*底部*/
+.foter{
+    margin-top: 30px;
+}
